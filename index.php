@@ -68,8 +68,8 @@
 
 <li><strong>Recenser et identifier les ressources numériques</strong></li>
 <p>
-Dans le pojet <strong>Health North,épiceriepsychologie</strong>, un inventaire complet des ressources informatiques a été réalisé.
-Chaque poste médical dispose du même matériel afin d’assurer homogénéité, compatibilité et maintenance simplifiée.
+Dans le pojet <strong>Health North,épicerie,psychologie</strong>, un inventaire complet des ressources informatiques a été réalisé.
+Chaque poste dispose du même matériel afin d’assurer homogénéité, compatibilité et maintenance simplifiée.
 </p>
 
 
@@ -86,54 +86,6 @@ Le laboratoire respecte plusieurs référentiels afin d’assurer qualité, séc
 <li><strong>RGPD</strong> : protection des données personnelles et médicales des patients</li>
 <li><strong>ISO 27001</strong> : norme internationale de sécurité des systèmes d’information</li>
 </ul>
-
-<p>
-Ces normes permettent de garantir la protection des données sensibles, la qualité du service et la conformité légale.
-</p>
-
-<hr>
-
-<li><strong>Mettre en place et vérifier les niveaux d’habilitation associés à un service</strong></li>
-
-<p>
-Seules les personnes accréditées disposent d’un accès selon leur rôle :
-</p>
-
-<ul>
-<li>Administrateur : accès complet</li>
-<li>Médecin : accès aux dossiers patients et rendez-vous</li>
-<li>Secrétaire : gestion des rendez-vous uniquement</li>
-<li>Technicien informatique : maintenance du système</li>
-</ul>
-
-<p>
-Chaque utilisateur possède un identifiant personnel et un mot de passe sécurisé.
-</p>
-
-<hr>
-
-<li><strong>Vérifier les conditions de la continuité d’un service informatique</strong></li>
-
-<ul>
-<li>Présence d’un onduleur (UPS) en cas de coupure électrique</li>
-<li>Plan de Continuité d’Activité (PCA)</li>
-<li>Serveur de secours</li>
-<li>Maintenance régulière du matériel</li>
-</ul>
-
-<hr>
-
-<li><strong>Gérer des sauvegardes</strong></li>
-
-<p>Sauvegardes régulières mises en place :</p>
-
-<ul>
-<li>Sauvegarde quotidienne automatique de la base de données</li>
-<li>Sauvegarde hebdomadaire complète</li>
-<li>Stockage externe sécurisé</li>
-</ul>
-
-<hr>
 
 <li><strong>Vérifier le respect des règles d’utilisation des ressources numériques</strong></li>
 
@@ -159,7 +111,7 @@ Documentation des procédures de sauvegarde et de récupération.
 
 <p>
 Installation et configuration de GLPI pour la gestion du parc informatique et des tickets d’incidents.
-Création des utilisateurs, inventaire des postes et gestion des demandes d’assistance.
+Création des utilisateurs, inventaire des postes et gestion des demandes d’assistance.Un TP est mise à disposition
 </p>
 
 <img src="assets/glpi0.png" width="250" height="200">
@@ -176,18 +128,30 @@ Création des utilisateurs, inventaire des postes et gestion des demandes d’as
           <div class="card shadow-sm competence-card">
             <div class="card-body">
               <ul>
-                <li> <strong>Collecter, suivre et orienter des demandes</li></strong>
-                Enregistrement des fichiers
 
-                <li><strong> Traiter des demandes concernant les services réseau et système</li></strong>
-                Problème de connexion
+    <li>
+        <strong>Collecter, suivre et orienter des demandes</strong><br>
+        Enregistrement des fichiers de contact, etc.<br>
+        <img src="assets/E1.png" width="250" height="200" alt="Collecte des demandes">
+    </li>
 
-                li><strong> Traiter des demandes concernant les applications</li></strong>
-                Problème de connexion,Serveur inaccessible,Compte bloqué
+    <li>
+        <strong>Traiter des demandes concernant les services réseau et système</strong><br>
+        Problème de connexion<br>
+        <img src="assets/problème_de_connexion.png" width="250" height="200" alt="Problème de connexion">
+    </li>
+
+    <li>
+        <strong>Traiter des demandes concernant les applications</strong><br>
+        Problème de connexion, Serveur inaccessible, Compte bloqué<br>
+        <img src="assets/glpi.png" width="250" height="200" alt="Gestion application GLPI">
+    </li>
+
+</ul>
 
                 <li> Résoudre un bug dans son application,documenter l'incident,la cause et la solution
-                  Dans Health North,mes rendez vous s'affiche qu'en test ,j'ouvre un ticket GLPI
-                  <img src="assets/gestion_des_rendezvous.png"width :'200' height='200'>
+                  Dans Health North,mes rendez vous s'affiche qu'en test ,j'ouvre un ticket</GLPI>
+                 
                   <img src="assets/glpi.png" width="250" height =200>
                  
                   Documenter
@@ -242,7 +206,7 @@ Dans le cadre de ma formation en <strong>BTS SIO</strong>, j’ai développé un
 destiné à un laboratoire médical, un cabinet de psychologie et une épicerie.
 </p>
 
-<p>U>n site prmet de s'inscrire et lesdeuxautres permment d'etre d'etre consulter.:</p>
+<p>U>n site prmet de s'inscrire et le sdeux autres permament d'etre d'etre consulter.:</p>
 
 <div style="display: flex; gap: 40px; align-items: center; margin-bottom: 20px;">
   <img src="assets/epicerie.png" alt="Épicerie" width="200" height="200">
@@ -307,37 +271,32 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
           <li>
             Analyser les objectifs et les modalités d’organisation d’un projet :
             <ul>
-              <li>Identification des besoins du laboratoire Heath North</li>
+              <li>
+  <p>Inscription et connexion des patients</p>
+
+<p>Création, modification et suppression de rendez-vous</p>
+
+<p>Affichage des rendez-vous dans un calendrier</p>
+
+<p>Gestion des comptes rendus médicaux</p>
+
+<p>Consultation de l’historique médical</p>
+
+<p>Interface administrateur pour gérer les données</p>
+
+<p>Recherche de patients</p>
+            </li>
+
+Liste des centres du laboratoire
               <li>Définition des fonctionnalités (gestion des rendez-vous, base de données MySQL, interface utilisateur)</li>
+              <img src="assets/base_de_donnée.png"width="200" height="200">,<img src="assets/gestion_des_rendezvous.png"width="200" height="200">
+             
+              
               <li>Choix des technologies (PHP, Bootstrap, MySQL)</li>
-            </ul>
+              <img src="assets/bootstrap.png" width="200" height="200">
           </li>
 
-          <li>
-            Planifier les activités :
-            <ul>
-              <li>Découpage du projet en tâches (analyse, développement, tests, déploiement)</li>
-              <li>Organisation des priorités</li>
-              <li>Répartition du travail dans un tableau Kanban</li>
-            </ul>
-          </li>
-
-          <li>
-            Évaluer les indicateurs de suivi du projet et analyser les écarts :
-            <ul>
-              <li>Suivi de l’avancement des tâches</li>
-              <li>Comparaison entre planning prévisionnel et réel</li>
-              <li>Correction des retards ou difficultés techniques</li>
-            </ul>
-          </li>
-
-          <li>
-            Utiliser un outil de gestion de projet :
-            <ul>
-              <li>Suivi de l’avancement avec Trello ou GitHub Projects</li>
-              <li>Organisation des tâches en méthode Kanban (À faire / En cours / Terminé)</li>
-              <li>Automatisation du suivi via les fonctionnalités de l’outil (notifications, attribution des tâches)</li>
-            </ul>
+          
 
             <div class="mt-3">
               <img src="assets/kanban.png" width="400" height="250" alt="Tableau Kanban Trello">
@@ -353,7 +312,7 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
   </div>
 </div>
 
-      <Compétence : <h3 class="mb-3">Organiser son développement professionnel</h3>
+      <h3 class="mb-3"><strong>Compétence :</strong> Organiser son développement professionnel</h3>h3>
 
 <div class="row mb-4">
   <div class="col-md-12 mb-3">
@@ -394,9 +353,6 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
           </li>
 
           <!-- Veille informationnelle -->
-<li>
-  <strong>Mettre en œuvre des outils et stratégies de veille informationnelle :</strong>
-  <ul>
 
     <li>
       Suivi de chaînes YouTube spécialisées en développement et cybersécurité
@@ -419,23 +375,23 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
       <ul>
         <li>Veille via Feedly</li>
         <li>Newsletters spécialisées en cybersécurité et développement</li>
-      </ul>
-    </li>
+      <a href=https://www.cyber-securite.fr/ target="_blank">
+            NetworkChuck – Cybersécurité & Réseaux
+        <a href=https://thehackernews.com/
 
-  </ul>
-</li>
+  
+
           <!-- Identité professionnelle -->
-<li><strong>Gérer son identité professionnelle :</strong></li>
-  <li>Mettre à jour régulièrement son profil professionnel</li>
-    <li>Publier du contenu pertinent lié à son domaine</li>
-    <li>Développer son réseau de contacts</li>
-    <li>Soigner sa photo et sa présentation</li>
 
     <li>
       Création et mise à jour d’un profil LinkedIn professionnel
     </li>
 <img src="assets/linkedin.png" width="200" height="200">
     <li>
+<li>
+</li>
+
+
       Publication et partage de projets réalisés
 
       <div class="projets-images">
@@ -456,8 +412,7 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
             <strong>Développer son projet professionnel :</strong>
             Suite à des raisons de santé,je souhaite faire du télétravail.Besoin de travailler de chez moi.
               <li>
-  <strong>Mise en valeur des compétences techniques et certifications :</strong>
-  <ul>
+ 
     <li>Présentation des langages maîtrisés </li>
 <div class="d-flex gap-3 flex-wrap">
   <img src="assets/php.png" class="img-fluid" width="120" alt="PHP">
