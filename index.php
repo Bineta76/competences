@@ -147,19 +147,16 @@ Création des utilisateurs, inventaire des postes et gestion des demandes d’as
         <img src="assets/glpi.png" width="250" height="200" alt="Gestion application GLPI">
     </li>
 
-</ul>
+</ul>             Exemple d'incident:
 
-                <li> Résoudre un bug dans son application,documenter l'incident,la cause et la solution
-                  Dans Health North,mes rendez vous s'affiche qu'en test ,j'ouvre un ticket</GLPI>
-                 
+                  Dans Health North,mes rendez vous s'affichent qu'en test ,j'ouvre un ticket GLPI.
                   <img src="assets/glpi.png" width="250" height =200>
-                 
-                  Documenter
-                  Cette application Heath North permet aux patients de prendre rendez vous.
+                 <img src="assets/glpi3.png"width="250" height=200>
+                 <img src="assets/gestion_des_rendezvous.png" width="250" height="200">
 
-                  La cause :Mauvaise synchronisation avec Always data
-
-                  La solution:Réaliser,de nouveau un envoi sur Always data.
+                 <p> Documenter :Cette application Heath North permet aux patients de prendre rendez vous.</p>
+                  <p>La cause :Mauvaise synchronisation avec Always data</p>
+                  <p>La solution:Réaliser,de nouveau un envoi sur Always data.</p>
 
               </ul>
             </div>
@@ -177,6 +174,8 @@ Création des utilisateurs, inventaire des postes et gestion des demandes d’as
         <ul>
           <li>
             
+
+
             <ul>
               <li>Création et gestion d’un site web professionnel</li>
              Dans le cadre du développement de la présence en ligne de monstage, j’ai participé à la modernisation du site web 
@@ -206,7 +205,7 @@ Dans le cadre de ma formation en <strong>BTS SIO</strong>, j’ai développé un
 destiné à un laboratoire médical, un cabinet de psychologie et une épicerie.
 </p>
 
-<p>U>n site prmet de s'inscrire et le sdeux autres permament d'etre d'etre consulter.:</p>
+<p>Un site permet de s'inscrire et les deux autres permament d'etre consulter.:</p>
 
 <div style="display: flex; gap: 40px; align-items: center; margin-bottom: 20px;">
   <img src="assets/epicerie.png" alt="Épicerie" width="200" height="200">
@@ -226,39 +225,15 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
  
 
             <li><strong>Déployer un service :</strong>
-           
-            <ul>
-              <li>Installation sur le serveur (local ou distant)</li>
-              <li>Configuration du réseau et des paramètres serveur</li>
-              <li>Mise en production du service</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Accompagner les utilisateurs dans la mise en place du service :</strong>
-            <ul>
-              <li>Rédaction d’un guide d’utilisation</li>
-              <li>Formation des utilisateurs</li>
-              <li>Assistance et support technique</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Déployer une application sur un hébergement en ligne :</strong></li>
-            <ul>
-              <li>Choix d’un hébergeur (ex : AlwaysData)</li>
-              <li>Configuration de la base de données MySQL</li>
-              <li>Tests des fonctionnalités en ligne</li>
-              <li>Partage de l’URL aux utilisateurs</li>
-            </ul>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
+        le besoin :  Mettre à disposition des utilisateurs
+         <li><strong> Exemple concret: </li></strong>
+          Pour un serveur wampp
+          <img src="assets/wamp.png">
+          Connecter à la base de donnée labo
+          <img labo="assets/base_de_donnee2.png">
+          Vérification que çà retourne bien à Json 
+          Tester le rendez-vous   
+      
       <!-- Compétence : Travailler en mode projet -->
       <h3 class="mb-3">Travailler en mode projet</h3>
 
@@ -269,7 +244,7 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
         <ul>
 
           <li>
-            Analyser les objectifs et les modalités d’organisation d’un projet :
+          <strong> Analyser les objectifs et les modalités d’organisation d’un projet :</strong>
             <ul>
               <li>
   <p>Inscription et connexion des patients</p>
@@ -289,7 +264,7 @@ L’objectif était de proposer un service informatique fiable, sécurisé et ac
 
 Liste des centres du laboratoire
               <li>Définition des fonctionnalités (gestion des rendez-vous, base de données MySQL, interface utilisateur)</li>
-              <img src="assets/base_de_donnée.png"width="200" height="200">,<img src="assets/gestion_des_rendezvous.png"width="200" height="200">
+              <img src="assets/base_de_donnee.png"width="200" height="200">,<img src="assets/gestion_des_rendezvous.png"width="200" height="200">
              
               
               <li>Choix des technologies (PHP, Bootstrap, MySQL)</li>
