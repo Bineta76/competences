@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aide personnalisée - Laboratoire Médical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #007bff;
+        }
+        .faq {
+            margin-bottom: 30px;
+        }
+        .faq-item {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .faq-item p {
+            margin: 5px 0 0 0;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aide personnalisée</h1>
+    <p>Nous sommes là pour répondre à vos questions et vous accompagner</p>
+</header>
+
+<main>
+    <section class="faq">
+        <h2>Questions fréquentes</h2>
+        <div class="faq-item">
+            <strong>Comment prendre rendez-vous ?</strong>
+            <p>Vous pouvez prendre rendez-vous directement via notre application ou en nous appelant au 01 23 45 67 89.</p>
+        </div>
+        <div class="faq-item">
+            <strong>Comment consulter mes résultats ?</strong>
+            <p>Vos résultats sont disponibles dans votre espace personnel en ligne sous 24 à 48 heures après votre test.</p>
+        </div>
+        <div class="faq-item">
+            <strong>Quels documents apporter ?</strong>
+            <p>Veuillez apporter votre pièce d'identité et votre carte de mutuelle si nécessaire.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form" action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Votre message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
